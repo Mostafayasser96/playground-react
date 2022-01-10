@@ -11,3 +11,392 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mail-service  {
+  position: relative;
+  z-index: 5555;
+  width: 100%;
+  height: 100%;
+}
+.mail-shadow  {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+}
+.mail-div  {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 11;
+  width: inherit;
+  border-radius: 3px;
+}
+.cover-div  {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  padding: 0px;
+  background-image: url('https://micro-cdn.sumo.com/image-resize/sumo-convert?uri=//media.sumo.com/e5d23c25e14c6ed59994f237d7e1c6345d73a52504e16afe546f7ea9bafa1ceb&supported=webp,webp.alpha,webp.animation,webp.lossless&hash=0d4b696bb67c90ed69b24fb45d338e63b4e0f56eac740cf6fbeaf6f4a1964dd4&format=webp');
+}
+.nowthis-img  {
+  background-repeat: no-repeat;
+  position: relative;
+  width: 54%;
+  height: 17%;
+  top: 20%;
+  left: 24%;
+  padding-bottom: 54%;
+  background-image: url('https://micro-cdn.sumo.com/image-resize/sumo-convert?uri=//media.sumo.com/6d206e45926826c534cb181feb8b2e8a65959663eda2a6edfcd4c10ac86ade95&supported=webp,webp.alpha,webp.animation,webp.lossless&hash=84a3e2365be8a7520a9e99e888d93d0d46aa2f7b72827874f0afd8b6e5f9e914&format=webp');
+}
+.cover-div-h3  {
+  font-family: 'Helvetica Neue, Arial, sans-serif';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 8px;
+  color: rgb(255,255,255);
+}
+.cover-div-p  {
+  font-family: 'Helvetica Neue, Arial, sans-serif';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 30px;
+  width: 65%;
+  margin-left: 20%;
+  color: rgb(255,255,255);
+}
+.form  {
+  background-color: rgb(255,255,255);
+}
+.f-x-i  {
+  width: 100%;
+  text-align: right;
+  padding-bottom: 10%;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-right: 12px;
+}
+.nowthis-logo  {
+  padding-bottom: 10%;
+  text-align: center;
+}
+.mail-service-logo  {
+  height: 100%;
+  width: calc(9% - 3px);
+
+}
+.mail-service-email  {
+  width: 85%;
+  text-align: left;
+  margin-left: 9%!important; 
+  border: none;
+  padding: 0px 14px 0px 14px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  color: rgb(51, 51, 51);
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  height: 48px;
+  margin-bottom: 12%;
+}
+.mail-service-btn  {
+  width: 85%;
+  text-align: center;
+  margin-left: 9%;
+  background-color: rgb(255, 255, 0);
+  border: none;
+  height: 48px;
+  font-size: 16px; 
+  line-height: 24px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  margin-bottom: 15%;
+}
+.mail-service-terms  {
+  width: 70%;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.5;
+  color: rgb(117, 117, 117);
+  margin-left: 15%;
+}
+.mail-service-terms-a1{
+  color: #333333!important;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  padding-bottom: 6%;
+
+} 
+.mail-service-terms-a2  {
+  color: #333333!important;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  padding-bottom: 6%;
+}
+.modal-content{
+  width: calc(59% -5px)!important;
+  border-radius: 4px!important;
+}
+
+
+/* the start of the sidebar styles */
+.sidebar-main  {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.sidebar-shadow  {
+  background-color: grey;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+}
+.sidebar-2  {
+  max-height: 500px;
+  width: 25%;
+  position: relative;
+  z-index: 10;
+  left: 75%;
+  overflow-y: scroll;
+  padding-left: 0px;
+  background-color: white;
+}
+.sidebar-div-1  {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px 8px 16px;
+}
+.sidebar-i-x  {
+  color: black;
+  margin-right: 25px;
+  font-size: 25px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.sidebar-div-2  {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.sidebar-input1  {
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  line-height: 28px;
+  text-align: left;
+  border: none;
+  padding-bottom: 20px;
+  color: lightgrey;
+  opacity: .6;
+}
+.sidebar-i-search  {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+.sidebar-div-3, .sidebar-div-5, .sidebar-div-7, .sidebar-div-9  {
+  padding: 16px 16px 16px 20px;
+}
+.cat-div  {
+  width: 100%;
+}
+.catdiv-span  {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.catdiv-span-2  {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 19px;
+  font-family: 'Open Sans';
+  margin-bottom: 7%;
+  width: 80%;
+}
+.catdiv-span-2:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+.sidebar-i-p  {
+  padding-top: 6px;
+}
+.sidebar-div-10  {
+  margin-bottom: 20px;
+  width: 85%;
+  border-bottom: 0.5px solid lightgrey;
+  padding-top: 15px;
+  margin-left: 20px;
+}
+.sidebar-div-11  {
+  margin-bottom: 20px;
+  padding-left: 22px;
+}
+.terms-ul  {
+  list-style: none;
+  margin-bottom: 44px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  padding-left: 0;
+}
+.terms-li  {
+  margin: 20px 0px 20px;
+}
+.terms-a  {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-family: "Source Sans Pro";
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+}
+.terms-a:hover{
+  color: black;
+  text-decoration: underline;
+}
+.sidebar-div-12  {
+  margin-bottom: 20px;
+  padding-left: 32px;
+}
+.form-input  {
+  height: 32px;
+  padding-left: 12px;
+  background-color: rgb(245, 245, 245);
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  border: none;
+  width: 61%;
+}
+.form-sub-btn  {
+  color: black;
+  font-size: 15px;
+  height: 32px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  font-family: 'Open Sans';
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  line-height: 17px;
+  text-align: left;
+  width: 38%;
+}
+.form-label  {
+  margin-top: 10px;
+}
+.span-age  {
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-check  {
+  margin-right: 10px;
+  margin-left: 2px;
+  min-height: 0px!important;
+}
+.check-label  {
+  width: 93%;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  background-color: initial;
+  color: rgb(51, 51, 51);
+}
+.terms-links {
+  color: rgb(51, 51, 51);
+  font-family: "Source Sans Pro";
+  font-size: 13px;
+  font-weight: 400;
+  padding-right: 23px;
+  text-align: left;
+}
+.form-terms-a  {
+  color: black;
+  text-decoration: underline;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.form-terms-a:hover{
+  color: black;
+}
+.sidebar-div-13  {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px 10px 16px;
+  margin-bottom: 20px;
+}
+.sidebar-social-logo  {
+  Width: 40%;
+  background-color: rgb(0 0 0 / 13%);
+}
+.sidebar-social {
+  list-style: none;
+  width: 59%;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-social-i  {
+  color: black;
+  font-size: 12px;
+}
+.copyrights {
+  font-size: 12px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  margin: 0px 16px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 30px;
+  width: 90%;
+}
+.cats-ul{
+  list-style: none;
+  padding-left: 0px;
+  background-color: lightgrey;
+}
+.sections-li{
+  padding: 12px 32px;
+}
+.li-cat{
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.li-cat:hover{
+  color: black;
+  text-decoration: underline;
+}
+/* the end of SectionsCats styles */
+/* the end of the sidebar styles */
